@@ -6,7 +6,7 @@ nav{
 
 
 a.navbar-brand{
-    font-family: 'Playfair Display', 'serif';
+    font-family: 'Playfair Display', sans-serif;
     letter-spacing: 3px;
     font-size: 42px;
     font-weight: bold;
