@@ -1,0 +1,111 @@
+#home{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/site-bg.jpg');
+    background-size: cover;
+    padding-top: 10rem;
+}
+.mainSection{
+    width: 100%;
+}
+
+.mainImage{
+    height: 350px;
+    margin-top: 50px;
+}
+.profileSection{
+    text-align: center;
+}
+.name{
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0, .7));
+    letter-spacing: 5px;
+    color: white;
+    font-family: 'Playfair Display', 'serif';
+    font-size: 40px;
+}
+.name span{
+    color: transparent;
+    background-image: var(--color-gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%;
+    animation: gradient-animation 5s infinite alternate;
+}
+.profileSection p{
+    font-size: 18px;
+}
+
+.skill{
+    font-size: 36px;
+}
+
+a.contactMe-button, a.getCv-button{
+    padding: 12px 40px;
+}
+a.contactMe-button{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-image: var(--color-gradient-secondary);
+    border-radius: 50px;
+    background-size: 200%;
+    animation: gradient-animation 5s infinite alternate;
+}
+a.contactMe-button:hover{
+    font-weight: bold;
+    box-shadow: 0px 4.42px 107px rgba(255, 86, 246, 0.5);
+}
+a.getCv-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid var(--color-gradient-secondary);
+}
+a.getCv-button:hover{
+    text-shadow: 0px 4.42px 107px rgba(255, 86, 246, 0.5);
+}
+
+
+@media screen and (min-width: 992px) {
+    .profileSection{
+        text-align: start;
+    }
+    .name{
+        font-size: 62px;
+    }
+    .imageSection{
+        position: relative;
+        padding: 10px;    
+    }
+    .mainImage{
+        border-radius: 50%;
+        margin-top: -10px;
+        height: 450px;
+        box-shadow: 0px 4.42px 107px rgba(255, 86, 246, 0.5);
+    }
+    span.circle-spin {
+        position: absolute;
+        top: 49%;        
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0);
+        width: 430px;
+        height: 450px;      
+        border-radius: 50%;
+        border-left: 5px solid skyblue;
+        border-right: 5px solid skyblue;
+    }
+    /* span.circle-spin-2 {
+        position: absolute;
+        top: 60%;        
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0);
+        width: 100%;
+        height: 100%;
+        border: 2px solid var(--color-acent);
+        
+    } */
+
+}
+

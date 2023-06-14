@@ -1,0 +1,33 @@
+.about-section {
+    text-align: justify;
+}
+.about-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+}
+
+.icon-wrapper{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socialMedia-section img{
+    height: 34px;
+    filter: grayscale(100%) saturate(100);
+}
+.socialMedia-section img:hover{
+    filter: grayscale(0);
+
+}
+
+@media screen and (max-width: 992px) {
+    .socialMedia-section {
+        justify-content: center;
+    
+    }
+}

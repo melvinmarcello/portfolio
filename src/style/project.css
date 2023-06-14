@@ -1,0 +1,50 @@
+#project{
+    font-family: 'Roboto', sans-serif;
+    background-color: #b8c1ec;
+}
+.link-project{
+    cursor: pointer;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.link-project {
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--color-text-primary);
+    font-weight: 300;
+}
+.link-project:hover, .actives{
+    color: var(--color-primary);
+    background-color: white;
+}
+.card-wrapper {
+    height: 400px;
+}
+
+.image-project{
+    height: 200px;
+    width: 100%;
+}
+.project-title{
+    font-family: 'PLayfair Display', sans-serif;
+    font-weight: 600;
+}
+.project-description{
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .link-wrapper ul{
+        gap: 3px;
+        text-align: center;
+    }
+    .project-container{
+        gap: 20px;
+    }
+    .card-wrapper {
+        height: auto;
+    }
+}
