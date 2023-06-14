@@ -3,7 +3,7 @@ import LandingAntarixa from '../assets/Antarixa.jpg'
 import MovieApp from '../assets/MovieApp.jpg'
 import HOI from '../assets/HOI.jpg'
 import Scholly from '../assets/scholly.jpg'
-import yclothing from '../assets/Y-clothing.jpg'
+import yclothing from '../assets/yclothing.jpg'
 import beasiswaku from '../assets/beasiswaku.jpg'
 
 import html from '../assets/html.png'
