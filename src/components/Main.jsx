@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import photo from '../assets/photo.png'
 import '../style/main.css'
 import pdf from '../assets/CV_Melvin Marcello_2023.pdf'
