@@ -25,15 +25,26 @@
 .image-project{
     height: 200px;
     width: 100%;
+    transition: .2s ease-in;
+}
+.image-project:hover{
+    filter: brightness(50%);
 }
 .project-title{
+    font-size: 24px;
+    text-decoration: none;
+    color: #0d0d0d;
     font-family: 'PLayfair Display', sans-serif;
     font-weight: 600;
 }
+.project-title:hover{
+    color: #efefef;
+}
+
+
 .project-description{
     text-align: justify;
 }
-
 
 
 @media screen and (max-width: 576px){

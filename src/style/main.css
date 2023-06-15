@@ -1,6 +1,5 @@
 #home{
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
     width: 100%;
     background-image: url('../assets/site-bg.jpg');
     background-size: cover;
@@ -11,18 +10,19 @@
 }
 
 .mainImage{
-    height: 350px;
+    height: 300px;
     margin-top: 50px;
 }
 .profileSection{
     text-align: center;
 }
+
 .name{
     filter: drop-shadow(5px 5px 5px rgba(0,0,0, .7));
     letter-spacing: 5px;
     color: white;
     font-family: 'Playfair Display', 'serif';
-    font-size: 40px;
+    font-size: 32px;
 }
 .name span{
     color: transparent;
@@ -37,7 +37,7 @@
 }
 
 .skill{
-    font-size: 36px;
+    font-size: 32px;
 }
 
 a.contactMe-button, a.getCv-button{
@@ -68,7 +68,17 @@ a.getCv-button:hover{
 }
 
 
+@media screen and (max-width: 376px) {
+    a.contactMe-button, a.getCv-button{
+        padding: 12px 20px;
+    }
+}
+
+
 @media screen and (min-width: 992px) {
+    #home{
+        height: 100vh;
+    }
     .profileSection{
         text-align: start;
     }
@@ -96,16 +106,6 @@ a.getCv-button:hover{
         border-left: 5px solid skyblue;
         border-right: 5px solid skyblue;
     }
-    /* span.circle-spin-2 {
-        position: absolute;
-        top: 60%;        
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(0);
-        width: 100%;
-        height: 100%;
-        border: 2px solid var(--color-acent);
-        
-    } */
 
 }
 

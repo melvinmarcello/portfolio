@@ -30,9 +30,11 @@ const Project = () => {
     const CardProject = ({item}) =>{
         return (
             <div className="card-wrapper">
-                <img className="image-project" src={item.image} alt="" />
-                <h3 className="mt-1 py-1 project-title">{item.name}</h3>
-                <p className="project-description">{item.description}</p>
+                <a href={item.link}>
+                    <img className="image-project" src={item.image} alt="" />
+                </a>
+                <a className="mt-1 py-1 project-title" href={item.link}>{item.name}</a>
+                <p className="project-description">{item.description}</p>               
             </div>
         )
     }
@@ -47,7 +49,7 @@ const Project = () => {
             </div>
 
             <div className="link-wrapper">
-                <ul className="d-flex justify-content-center mb-5">
+                <ul className="d-flex justify-content-center mb-5 align-items-center">
                     {projectsNav.map((item, i) => { return (
                         <li onClick={(e) => handleClick(e, i)} key={i} className={`${userSelect === i  ? 'actives' : ''} link-project`}>
                            {item.name}
