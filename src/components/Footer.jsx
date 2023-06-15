@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <footer className="footer px-5  py-4">
+    <footer className="footer px-1  py-4">
       <Container>
         <Row className='justify-content-between align-items-center'>
           <Col md={6}>

@@ -45,7 +45,7 @@ const Project = () => {
             <div className="text-center">
                 <h4 className="title-content text-uppercase">Projects</h4>
                 <h2>Latest Project</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum neque aliquid possimus eius dicta debitis.</p>
+                <p>These are a few of the projects I{"'"}ve been involved in, starting from when I first began learning web development up until now.</p>
             </div>
 
             <div className="link-wrapper">

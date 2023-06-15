@@ -4,7 +4,7 @@ import MovieApp from '../assets/MovieApp.jpg'
 import HOI from '../assets/HOI.jpg'
 import Scholly from '../assets/scholly.jpg'
 import yclothing from '../assets/yclothing.jpg'
-import beasiswaku from '../assets/beasiswaku.jpg'
+import beasiswaku from '../assets/mockup2.jpg'
 
 import html from '../assets/html.png'
 import css from '../assets/css.png'
@@ -20,7 +20,7 @@ export const projectsData = [
       image: webdesa,
       name: 'Website Desa',
       category: 'web development',
-      description: 'Tujuan proyek ini adalah untuk memberikan akses mudah dan transparan kepada penduduk desa dan untuk memasarkan UMKM yang terdapat di desa tersebut.',
+      description: 'The purpose of this project is to provide easy and transparent access to villagers and to market Small Micro Medium Enterprises ( SMEs) found in the village.',
       link: 'https://github.com/melvinmarcello/web-desa-tanjungsari'
     },
     {
@@ -28,7 +28,7 @@ export const projectsData = [
       image: LandingAntarixa,
       name: 'Landing Page Antarixa',
       category: 'web development',
-      description: 'Halaman website ini dirancang dengan sederhana dan fokus, bertujuan untuk menarik pengunjung agar melakukan tindakan tertentu, seperti mendaftar, atau mengetahui layanan yang ditawarkan.',
+      description: 'This website page is designed to be simple and focused, aiming to attract visitors to take certain actions, such as signing up, or learning about the services offered.',
       link: 'https://melvinmarcello.github.io/Antarixa/'
     },
     {
@@ -36,7 +36,7 @@ export const projectsData = [
       image: MovieApp,
       name: 'Movie App',
       category: 'web development',
-      description: 'Tujuan dari proyek ini adalah untuk memenuhi mata kuliah pemrograman web serta untuk membantu mencari film,jadwal release-nya , melihat detail film secara online.',
+      description: 'The purpose of this project is to help search for movies, and their release schedules, and view movie details online.',
       link: 'https://melvinmarcello.github.io/MovieApp/main.html'
     },
     {
@@ -44,7 +44,7 @@ export const projectsData = [
       image: HOI,
       name: 'Humans of Indonesia',
       category: 'web development',
-      description: 'Landing page Humans of Indonesia halaman website yang dirancang untuk menampilkan fotografi dan hidup di Indonesia',
+      description: 'Humans of Indonesia landing page website page designed to showcase photography and living in Indonesia.',
       link: 'https://melvinmarcello.github.io/HumansOfIndonesia/'
     },
     {
@@ -52,7 +52,7 @@ export const projectsData = [
       image: Scholly,
       name: 'Scholly',
       category: 'design',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate eius dolor amet adipisci. Velit, enim hic.',
+      description: 'The platform provides easy access to search for scholarships, internships, and webinars relevant to users interests and needs, helping them gain valuable education, work experience, and self-development opportunities.',
       link: ''
     },
     {
@@ -60,7 +60,7 @@ export const projectsData = [
       image: yclothing,
       name: 'Y-Clothing',
       category: 'web development',
-      description: 'Sebuah proyek web berupa website toko online yang berfokus pada penjulalan pakaian dan aksesoris. Tujuan dari proyek ini adalah untuk membuat website toko online untuk menampilkan produk dan juga profil toko.',
+      description: 'A web project in the form of an online shop website that focuses on selling clothes and accessories. The purpose of this project is to create an online store website to display products and also store profiles.',
       link: 'https://y-clothing.netlify.app/'
     },
     {
@@ -68,7 +68,7 @@ export const projectsData = [
       image: beasiswaku,
       name: 'Beasiswaku',
       category: 'mobile',
-      description: 'Tujuan dari aplikasi Beasiswaku adalah untuk menampilkan beasiswa-beasiswa yang tersedia dan dapat melakukan pendaftaran beasiswa untuk mahasiswa',
+      description: 'The purpose of the Beasiswaku application is to display available scholarships and be able to register scholarships for students.',
       link: 'https://github.com/melvinmarcello/beasiswaku'
     },
   ];
