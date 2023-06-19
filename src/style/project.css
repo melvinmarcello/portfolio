@@ -1,6 +1,7 @@
 #project{
     font-family: 'Roboto', sans-serif;
     background-color: #b8c1ec;
+    scroll-margin-top: 6rem;
 }
 .link-project{
     cursor: pointer;
@@ -52,10 +53,15 @@
         gap: 3px;
         text-align: center;
     }
-    .project-container{
-        gap: 20px;
-    }
+
     .card-wrapper {
         height: auto;
     }
 }
+
+@media screen and (max-width: 992px){
+    .project-container{
+        gap: 2rem;
+    }
+}
+

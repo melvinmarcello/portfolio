@@ -3,9 +3,12 @@ import '../style/navigationBar.css'
 import { useState } from "react"
 
 
+
 const NavigationBar = () => {
   const [colorChange, setColorchange] = useState(false);
+
   const changeNavbarColor = () => {
+
       if (window.scrollY >= 80) {
           setColorchange(true);
       }
@@ -22,8 +25,8 @@ const NavigationBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto gap-4">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#skills">Skill</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#project">Project</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>

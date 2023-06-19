@@ -50,4 +50,11 @@ a.nav-link:hover::after, .active::after{
     span.navbar-toggler-icon{
         background-image: url('../assets/gear.svg')
     }
+    a.nav-link:hover::after, .active::after{
+        margin-left: 0;
+        width: 10%;
+    }
+    a.nav-link.active{
+        color: black !important;
+    }
 }

@@ -41,7 +41,7 @@ const Project = () => {
 
   return (
     <section id="project" className="py-5">
-        <Container >
+        <Container>
             <div className="text-center">
                 <h4 className="title-content text-uppercase">Projects</h4>
                 <h2>Latest Project</h2>
