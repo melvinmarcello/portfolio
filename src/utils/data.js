@@ -13,6 +13,7 @@ import bootsrap from '../assets/bootstrap.png'
 import reactjs from '../assets/reactjs.png'
 import mongodb from '../assets/mongodb.png'
 import nodejs from '../assets/nodejs.png'
+import laravel from '../assets/laravel.png'
 
 export const projectsData = [
     {
@@ -118,5 +119,9 @@ export const projectsData = [
     name: 'NodeJs',
     image: nodejs
   },
+  {
+    name: 'Laravel',
+    image: laravel,
+  }
 
  ]
