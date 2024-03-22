@@ -13,7 +13,7 @@ const Main = () => {
                     <h1 className="name">Melvin <span>Marcello</span></h1>
                     <p className="text-white mb-5">I am an active student of the Faculty of Computer Science, which focuses on web development and cyber security.</p>
                     <a href="#contact" className="contactMe-button">Contact Me</a>
-                    <a href={pdf} download='CV_Melvin Marcello_2023.pdf' className="getCv-button">Get My CV</a>
+                    <a href={pdf} download='CV_Melvin Marcello_2024.pdf' className="getCv-button">Get My CV</a>
                 </Col >
                 <Col md={6} className="imageSection text-center">
                     <img src={photo} alt="Melvin Marcello" className="mainImage mx-auto" />

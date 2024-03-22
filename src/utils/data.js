@@ -6,8 +6,8 @@ import Scholly from '../assets/scholly.jpg'
 import yclothing from '../assets/yclothing.jpg'
 import beasiswaku from '../assets/mockup2.jpg'
 
-import html from '../assets/html.png'
-import css from '../assets/css.png'
+import tailwind from '../assets/tailwind.webp'
+import go from '../assets/go.png'
 import js from '../assets/js.png'
 import bootsrap from '../assets/bootstrap.png'
 import reactjs from '../assets/reactjs.png'
@@ -92,36 +92,36 @@ export const projectsData = [
   
  export const skills = [
   {
-    name: 'HTML',
-    image: html
-  },
-  {
-    name: 'CSS',
-    image: css
-  },
-  {
     name: 'Javascript',
     image: js
-  },
-  {
-    name: 'Bootstrap',
-    image: bootsrap
   },
   {
     name: 'ReactJS',
     image: reactjs
   },
   {
-    name: 'MongoDb',
-    image: mongodb
-  },
-  {
     name: 'NodeJs',
     image: nodejs
   },
   {
+    name: 'MongoDb',
+    image: mongodb
+  },
+  {
     name: 'Laravel',
     image: laravel,
+  },
+  {
+    name: 'Go',
+    image: go,
+  },
+  {
+    name: 'Bootstrap',
+    image: bootsrap
+  },
+  {
+    name: 'Tailwind Css',
+    image: tailwind
   }
-
+  
  ]

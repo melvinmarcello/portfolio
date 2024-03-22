@@ -25,17 +25,11 @@ const Footer = () => {
             </a>      
             </div>
           </Col>
-          <Col md={4}>            
-            <ul className="list-unstyled d-flex flex-wrap gap-3">
-                <li><a href="#home">Home</a> </li>
-                <li><a href="#skills">Skill</a></li>
-                <li><a href="#project">Project</a> </li>
-                <li><a href="#contact">Contact</a> </li>
-            </ul>
-            <p className='fw-bold'>melvinmarcello2978@gmail.com</p>
+          <Col md={4}>                        
+            <p className='text-center fw-bold'>melvinmarcello2978@gmail.com</p>
           </Col>
           <Col md={4}>
-            <h6 className='text-center text-secondary'>&copy; 2023 Melvin Marcello</h6>
+            <h6 className='text-center text-secondary'>&copy; 2024 Melvin Marcello</h6>
           </Col>
         </Row>
       </Container>
