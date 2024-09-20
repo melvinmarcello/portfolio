@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import photo from '../assets/photo.png'
 import '../style/main.css'
-import pdf from '../utils/CV_Melvin Marcello_2023.pdf'
+import pdf from '../utils/CV_Melvin Marcello_2024.pdf'
 
 const Main = () => {
   return (

@@ -1,6 +1,6 @@
 import webdesa from '../assets/webdesa.jpg'
 import LandingAntarixa from '../assets/Antarixa.jpg'
-import MovieApp from '../assets/MovieApp.jpg'
+import MovieApp from '../assets/movie-app.png'
 import HOI from '../assets/HOI.jpg'
 import Scholly from '../assets/scholly.jpg'
 import yclothing from '../assets/yclothing.jpg'
@@ -35,7 +35,7 @@ export const projectsData = [
     {
       id: '3',
       image: MovieApp,
-      name: 'Movie App',
+      name: 'M-LIX Movie App',
       category: 'web development',
       description: 'The purpose of this project is to help search for movies, and their release schedules, and view movie details online.',
       link: 'https://melvinmarcello.github.io/MovieApp/main.html'
