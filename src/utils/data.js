@@ -38,7 +38,7 @@ export const projectsData = [
       name: 'M-LIX Movie App',
       category: 'web development',
       description: 'The purpose of this project is to help search for movies, and their release schedules, and view movie details online.',
-      link: 'https://melvinmarcello.github.io/MovieApp/main.html'
+      link: 'https://mlix-movieapp.vercel.app/'
     },
     {
       id: '4',
